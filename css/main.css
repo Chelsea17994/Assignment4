@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    font-family: Arimo,Arial,Helvetica,lucida grande,sans-serif;
+   background-color: #ffffff;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -.03em;
+}
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.fafie a{
+    color:white;
+    background-color: #00908E
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	
+}
+alert{
+	background-color:#1d1d1d;
+}
+ul li{ 
+     color:#1d1d1d;
+}
+p a{
+	  color:#00908E;
+	  
+}
+ul a{
+	  color:#00908E;
+	  
+}
+ul b{
+	text-align: center-left ;
+	color: 1d1d1d;
+}
+
+.container{
+text-align: center;
+
+}
+
+.Logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+
+header{
+    text-align: center;
+
+
+}
+/*-------------------------------ACTIVE TAB UNDERLINE HIGHLIGHTER-----------------------------*/
+.navigation-bar a.current{
+    
+    text-decoration: underline;
+    
+    text-decoration-color:#00908E;
+ 
+ }
+ /*-------------------------------NAVBAR LINKS-----------------------------*/
+nav ul li a{
+    
+    color: salmon;
+    background-color: inherit;
+    text-align: left;
+    font-size: 15pt;
+    text-decoration: none;
+
+}
+
+
+nav ul li a:hover {
+    color: #00908E
+}
+
+.nav-bar li{
+    
+    padding: 1em;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    color: #919191;
+    position: relative;
+    top: 15px; 
+    padding-top: 20px;
+    
+}
+ /*-------------------------------NAV CONTAINER-----------------------------*/
+.nav-container{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background: white;
+    border-bottom: 1px solid #00908E;
+    align-content: center;   
+}
+/*-------------------------------THE MIDDLE CONTAINER -----------------------------*/
+.middle-container{
+    background-color: #1d1d1d;
+    padding-block-start: 5%;
+    padding-block-end: 5%;
+    text-align: center;
+      
+}
+ 
+/*-------------------------------PICTURES-----------------------------*/
+.girl{
+    width: 14em;
+    height: 17em;
+    margin: auto;
+    padding-left: 1px;;
+    
+}
+.pic{
+  border: solid;
+  text-align: center;
+  display: inline-block;
+  margin-right: 4em;
+  margin-top: 2em;
+  background:#00908E;
+}
+.picc{
+  
+  text-align: center;
+  display: inline-block;
+  margin-right: 4em;
+  margin-top: 2em;
+  
+}
+.pics{
+
+	 text-align: center;
+  display: inline-block;
+  margin-right: 4em;
+  margin-top: 2em;
+  
+  
+}
+
+/*-------------------------------LOGIN OR SIGN UP INPUT BOX-----------------------------*/
+.input-box{
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+   
+    border: 2px solid #00908E;
+    outline: none;
+    margin-top: 40px;
+}
+.input-boxx{
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px;
+   
+    border: 2px solid #00908E;
+    outline: none;
+    margin-top: 40px;
+}
+/*-------------------------------LOGIN FORM-----------------------------*/
+.login-form{
+
+    width: 300px;
+    text-align: center;
+    background: salmon;
+    border: solid rgb(85, 78, 78);
+    border-width: 5px;
+    padding: 40px;
+    
+    margin: 10% auto;
+    padding-bottom: 5%;
+    color: rgb(163, 163, 163);
+    
+}
+.login-formm{
+
+    width: 350px;
+    text-align: center;
+    background: salmon;
+    border: solid rgb(85, 78, 78);
+    border-width: 5px;
+    padding: 40px;
+    
+    margin: 10% auto;
+    padding-bottom: 5%;
+    color: rgb(163, 163, 163);
+    
+}
+/*-------------------------------LOGIN BUTTON-----------------------------*/
+.login-button, .signupbtn{
+    background: #00908E;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 40px;
+    
+    padding : 10px 80px 10px 80px;
+}
+/*-------------------------------SEARCH BAR-----------------------------*/
+.navigation-bar input[type=text]{
+    float: left;
+    margin-top: 35px;
+    margin-right:40px;
+    border-radius: 9px;
+	padding:5px;
+    background-color: #E6E6E6;
+    border: none;
+    height: 20px;
+}
+/*-------------------------------BUTTON-----------------------------*/
+.button{
+       background: ;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 40px;  
+}
+.btn-container{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    
+}
+.buttons{
+	color:skyblue;
+	
+}
+
+.btn{
+    color:#1d1d1d;
+    
+    
+}
+
+/*-------------------------------headings-----------------------------*/
+h2{ 
+   text-align: center;
+   color:#F7931E;
+}
+h3{ 
+   text-align: center;
+   color:#F7931E;
+}
+h1{
+   
+   padding: 0 0 0px; 
+   text-decoration: underline;
+   text-decoration-color:#1d1d1d ;
+   color:#1d1d1d;
+   
+}
+
+/*-------------------------------FOOTER CONTAINER-----------------------------*/
+.footer-container {
+
+    display: flex;
+    
+    justify-content: center;
+    padding: auto;
+    background-color:#00908E;
+    position: absolute;
+        
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    
+    }
+/*-------------------------------FOOTER ITEMS-----------------------------*/
+.customer-care{
+
+    width: 2em;
+    height: 2em;
+    margin: auto;
+}
+ 
+.footer-link{
+    text-align: center;
+  display: inline-block;
+  margin: 15px;
+  
+}
+
+.link{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+/* footer links content*/
+.about-us{
+    text-align: center;
+}
+.login-header{
+    color: white;
+}

@@ -1,0 +1,14 @@
+#bg {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /*filter: blur(3px);*/
+}
+
+#navcol-1 {
+  float: right;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+}
+
